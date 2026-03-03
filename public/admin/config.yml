@@ -1,6 +1,9 @@
-﻿backend:
+backend:
   name: git-gateway
   branch: main
+
+publish_mode: simple
+show_preview_links: false
 
 media_folder: "public/images"
 public_folder: "/images"
@@ -9,31 +12,53 @@ collections:
   - name: "products"
     label: "Products"
     label_singular: "Product"
+    description: "Add and update Beauty Store products from this screen."
     folder: "content/products"
     create: true
+    delete: true
     extension: "md"
     format: "frontmatter"
     slug: "{{slug}}"
     identifier_field: "product_name"
-    summary: "{{product_name}} - {{price}}"
+    summary: "{{product_name}} | {{category}} | {{price}}"
+    editor:
+      preview: false
+    sortable_fields:
+      - "product_name"
+      - "category"
+      - "best_seller"
+      - "price"
     fields:
-      - { label: "Product Name", name: "product_name", widget: "string" }
-      - { label: "Price", name: "price", widget: "string", hint: "Example: $19.99" }
-      - { label: "Description", name: "description", widget: "text" }
+      - label: "Product Name"
+        name: "product_name"
+        widget: "string"
+        hint: "Example: Hydrating Aloe Face Wash"
+      - label: "Price"
+        name: "price"
+        widget: "string"
+        hint: "Example: $19.99"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        hint: "Short, customer-friendly description"
       - label: "Category"
         name: "category"
         widget: "select"
         options:
-          - "Makeup"
-          - "Foundations"
-          - "Serum"
           - "Skincare"
-          - "Lipsticks"
           - "Hair Care"
-      - { label: "Best Seller", name: "best_seller", widget: "boolean", default: false, required: false }
+      - label: "Best Seller"
+        name: "best_seller"
+        widget: "boolean"
+        default: false
+        required: false
       - label: "Images"
         name: "images"
         widget: "list"
-        allow_add: true
         min: 1
-        field: { label: "Image", name: "item", widget: "image" }
+        allow_add: true
+        hint: "Upload one or more images"
+        field:
+          label: "Image"
+          name: "item"
+          widget: "image"
