@@ -12,7 +12,6 @@ collections:
   - name: "products"
     label: "Products"
     label_singular: "Product"
-    description: "Add and update Beauty Store products from this screen."
     folder: "content/products"
     create: true
     delete: true
@@ -20,27 +19,19 @@ collections:
     format: "frontmatter"
     slug: "{{slug}}"
     identifier_field: "product_name"
-    summary: "{{product_name}} | {{category}} | {{price}}"
+    summary: "{{product_name}} - {{price}}"
     editor:
       preview: false
-    sortable_fields:
-      - "product_name"
-      - "category"
-      - "best_seller"
-      - "price"
     fields:
       - label: "Product Name"
         name: "product_name"
         widget: "string"
-        hint: "Example: Hydrating Aloe Face Wash"
       - label: "Price"
         name: "price"
         widget: "string"
-        hint: "Example: $19.99"
       - label: "Description"
         name: "description"
         widget: "text"
-        hint: "Short, customer-friendly description"
       - label: "Category"
         name: "category"
         widget: "select"
@@ -57,8 +48,8 @@ collections:
         widget: "list"
         min: 1
         allow_add: true
-        hint: "Upload one or more images"
         field:
           label: "Image"
           name: "item"
           widget: "image"
+          choose_url: false
