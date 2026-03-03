@@ -1,10 +1,4 @@
-﻿export type ProductCategory =
-  | 'Makeup'
-  | 'Foundations'
-  | 'Serum'
-  | 'Skincare'
-  | 'Lipsticks'
-  | 'Hair Care';
+﻿export type ProductCategory = 'Skincare' | 'Hair Care';
 
 export interface Product {
   id: string;

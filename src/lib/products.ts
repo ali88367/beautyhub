@@ -1,11 +1,7 @@
 ﻿import { Product, ProductCategory } from '../types';
 
 export const CATEGORY_OPTIONS: ProductCategory[] = [
-  'Makeup',
-  'Foundations',
-  'Serum',
   'Skincare',
-  'Lipsticks',
   'Hair Care',
 ];
 
