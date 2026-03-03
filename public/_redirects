@@ -1,0 +1,5 @@
+﻿/* Handle admin route directly */
+/admin/*  /admin/index.html  200
+
+/* Handle SPA routes */
+/*  /index.html  200
