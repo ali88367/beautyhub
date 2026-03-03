@@ -1,4 +1,7 @@
-﻿/* Handle admin route directly */
+﻿/* Handle Netlify system endpoints */
+/.netlify/*  /.netlify/:splat  200
+
+/* Handle admin route directly */
 /admin/*  /admin/index.html  200
 
 /* Handle SPA routes */
