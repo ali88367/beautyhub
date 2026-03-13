@@ -29,6 +29,16 @@ collections:
       - label: "Price"
         name: "price"
         widget: "string"
+      - label: "Original Price (Old)"
+        name: "original_price"
+        widget: "string"
+        required: false
+        hint: "Optional. Show as old price when discount is set."
+      - label: "Discounted Price"
+        name: "discount_price"
+        widget: "string"
+        required: false
+        hint: "Optional. If set, this is the price shown to customers."
       - label: "Description"
         name: "description"
         widget: "text"
@@ -37,7 +47,7 @@ collections:
         widget: "select"
         options:
           - "Skincare"
-          - "Hair Care"
+          - "Makeup"
       - label: "Best Seller"
         name: "best_seller"
         widget: "boolean"

@@ -2,7 +2,7 @@
 
 export const CATEGORY_OPTIONS: ProductCategory[] = [
   'Skincare',
-  'Hair Care',
+  'Makeup',
 ];
 
 const productFiles = import.meta.glob('/content/products/*.md', {
@@ -122,6 +122,8 @@ function toProduct(path: string, markdown: string): Product | null {
 
   const name = String(fields.product_name ?? '').trim();
   const price = String(fields.price ?? '').trim();
+  const originalPrice = String(fields.original_price ?? '').trim();
+  const discountPrice = String(fields.discount_price ?? '').trim();
 
   if (!name || !price) return null;
 
@@ -130,6 +132,8 @@ function toProduct(path: string, markdown: string): Product | null {
     slug,
     name,
     price,
+    originalPrice: originalPrice || undefined,
+    discountPrice: discountPrice || undefined,
     description: String(fields.description ?? '').trim(),
     category,
     bestSeller: Boolean(fields.best_seller ?? false),

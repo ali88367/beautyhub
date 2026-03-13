@@ -1,9 +1,14 @@
 ---
 product_name: test
-price: "200"
+price: "PKR 200"
 description: sadsadsadsad
 category: Skincare
 best_seller: true
 images:
-  - /images/copy-of-t4-1-.png
+  - /images/prod1.png
+  - /images/prod2.png
+  - /images/prod3.png
 ---
+
+
+

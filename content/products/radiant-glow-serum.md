@@ -1,10 +1,16 @@
-﻿---
+---
 product_name: "Radiant Glow Serum"
-price: "$29.99"
+price: "PKR 8,397"
+original_price: "PKR 9,200"
+discount_price: "PKR 8,397"
 description: "A lightweight brightening serum with niacinamide and hyaluronic acid for a dewy, hydrated finish."
 category: "Skincare"
 best_seller: true
 images:
-  - "/images/radiant-glow-serum-1.jpg"
-  - "/images/radiant-glow-serum-2.jpg"
+  - /images/prod1.png
+  - /images/prod2.png
+  - /images/prod3.png
 ---
+
+
+

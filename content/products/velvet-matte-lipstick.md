@@ -1,10 +1,16 @@
-﻿---
+---
 product_name: "Velvet Matte Lipstick"
-price: "$14.99"
+price: "PKR 4,197"
+original_price: "PKR 4,800"
+discount_price: "PKR 4,197"
 description: "Long-wear matte lipstick with a soft, non-drying finish and rich pigment."
 category: "Skincare"
 best_seller: true
 images:
-  - "/images/velvet-matte-lipstick-1.jpg"
-  - "/images/velvet-matte-lipstick-2.jpg"
+  - /images/prod1.png
+  - /images/prod2.png
+  - /images/prod3.png
 ---
+
+
+

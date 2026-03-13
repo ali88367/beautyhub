@@ -1,10 +1,12 @@
-﻿export type ProductCategory = 'Skincare' | 'Hair Care';
+export type ProductCategory = 'Skincare' | 'Makeup';
 
 export interface Product {
   id: string;
   slug: string;
   name: string;
   price: string;
+  originalPrice?: string;
+  discountPrice?: string;
   description: string;
   category: ProductCategory;
   bestSeller: boolean;

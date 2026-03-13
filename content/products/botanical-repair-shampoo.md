@@ -1,10 +1,15 @@
 ---
 product_name: Botanical Repair Shampoo
-price: $18.00
+price: PKR 5,040
 description: Gentle sulfate-free shampoo with botanical extracts to cleanse and
   strengthen dry hair.
-category: Hair Care
+category: Makeup
 best_seller: true
 images:
-  - /images/psychology-of-mature-people-4-.png
+  - /images/prod1.png
+  - /images/prod2.png
+  - /images/prod3.png
 ---
+
+
+
