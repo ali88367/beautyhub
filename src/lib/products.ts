@@ -109,7 +109,16 @@ function toProduct(path: string, markdown: string): Product | null {
     ? (categoryRaw as ProductCategory)
     : 'Skincare';
 
-  const imagesRaw = Array.isArray(fields.images) ? fields.images : [];
+  const imagesRaw = [
+    ...(String(fields.cover_image ?? '').trim() ? [String(fields.cover_image).trim()] : []),
+    ...(
+      Array.isArray(fields.gallery_images)
+        ? fields.gallery_images
+        : Array.isArray(fields.images)
+          ? fields.images
+          : []
+    ),
+  ];
   const images = imagesRaw
     .map((entry) => {
       if (typeof entry === 'string') return entry;

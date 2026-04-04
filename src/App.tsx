@@ -26,8 +26,15 @@ export default function App() {
 
 
   return (
-    <div className="pt-16 pb-24">
-      <Navbar />
+    <div className="pt-16 pb-20 sm:pb-24">
+      <Navbar
+        onOpenAllProducts={() => {
+          setShowAllProducts(true);
+          setActiveProduct(null);
+          setActiveImage(undefined);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+      />
 
       {activeProduct && (
         <ProductPage
@@ -58,49 +65,62 @@ export default function App() {
 
       {!activeProduct && !showAllProducts && (
         <>
-
-      <section
-        id="home"
-        className="relative min-h-[520px] h-[70vh] sm:h-[65vh] flex items-center overflow-hidden bg-beauty-blush/30"
-      >
-        <div className="absolute inset-0 z-0">
-          <img
-            src="/images/banner.jpeg"
-            alt="Beauty Banner"
-            className="w-full h-full object-cover opacity-90"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-white/65 to-transparent" />
-        </div>
-
-        <div className="relative z-10 px-6 md:px-8 max-w-7xl mx-auto w-full">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="max-w-lg"
+          <section
+            id="home"
+            className="relative min-h-[460px] sm:min-h-[520px] h-[78vh] sm:h-[65vh] flex items-end sm:items-center overflow-hidden bg-beauty-blush/30"
           >
-            <span className="text-beauty-pink-dark font-semibold tracking-widest text-xs uppercase mb-4 block">Beauty Store</span>
-            <h1 className="font-serif text-4xl md:text-7xl text-gray-900 leading-tight mb-6">
-              Pure Skin. <br />
-              <span className="text-beauty-pink-dark italic">Natural Glow.</span>
-            </h1>
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-              <Button onClick={() => document.getElementById('all-products')?.scrollIntoView()}>All Products</Button>
-              <Button variant="outline" onClick={() => document.getElementById('best-sellers')?.scrollIntoView()}>
-                Best Sellers
-              </Button>
+            <div className="absolute inset-0 z-0">
+              <img
+                src="/images/banner.jpeg"
+                alt="Beauty Banner"
+                className="w-full h-full object-cover object-center opacity-90"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t sm:bg-gradient-to-r from-white/85 via-white/60 to-transparent" />
             </div>
-          </motion.div>
-        </div>
-      </section>
 
-      <Section id="best-sellers" title="Best Sellers" className="max-w-7xl mx-auto">
+            <div className="relative z-10 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto w-full pb-8 sm:pb-0">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                className="max-w-md sm:max-w-lg"
+              >
+                <span className="text-beauty-pink-dark font-semibold tracking-[0.25em] text-[10px] sm:text-xs uppercase mb-3 sm:mb-4 block">
+                  Beauty Store
+                </span>
+                <h1 className="font-serif text-3xl sm:text-5xl md:text-7xl text-gray-900 leading-tight mb-4 sm:mb-6 max-w-[10ch] sm:max-w-none">
+                  Pure Skin. <br />
+                  <span className="text-beauty-pink-dark italic">Natural Glow.</span>
+                </h1>
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                  <Button
+                    onClick={() => {
+                      setShowAllProducts(true);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                    className="w-full sm:w-auto"
+                  >
+                    All Products
+                  </Button>
+                  <Button
+                    variant="outline"
+                    onClick={() => document.getElementById('best-sellers')?.scrollIntoView()}
+                    className="w-full sm:w-auto"
+                  >
+                    Best Sellers
+                  </Button>
+                </div>
+              </motion.div>
+            </div>
+          </section>
+
+          <Section id="best-sellers" title="Best Sellers" className="max-w-7xl mx-auto">
         {bestSellers.length === 0 ? (
           <p className="text-sm text-gray-500">No best seller products yet.</p>
         ) : (
-          <div className="flex gap-4 overflow-x-auto no-scrollbar pb-2">
+          <div className="flex gap-3 sm:gap-4 overflow-x-auto no-scrollbar pb-2">
             {bestSellers.map((product) => (
-              <div key={product.id} className="min-w-[190px] max-w-[190px] flex-shrink-0">
+              <div key={product.id} className="min-w-[160px] max-w-[160px] sm:min-w-[190px] sm:max-w-[190px] flex-shrink-0">
                 <ProductCard
                   product={product}
                   onClick={(image) => {
@@ -114,14 +134,20 @@ export default function App() {
           </div>
         )}
         <div className="mt-6">
-          <Button onClick={() => setShowAllProducts(true)} className="w-full sm:w-auto">
+          <Button
+            onClick={() => {
+              setShowAllProducts(true);
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="w-full sm:w-auto"
+          >
             View All Products
           </Button>
         </div>
       </Section>
 
       <Section id="all-products" title="Our Collection" className="max-w-7xl mx-auto">
-        <div className="flex gap-2 overflow-x-auto no-scrollbar mb-6 pr-2">
+        <div className="flex gap-2 overflow-x-auto no-scrollbar mb-5 sm:mb-6 pr-2">
           <button
             onClick={() => setSelectedCategory(null)}
             className={`px-4 py-2 rounded-full text-sm whitespace-nowrap transition-all ${
@@ -146,7 +172,7 @@ export default function App() {
         {filteredProducts.length === 0 ? (
           <p className="text-sm text-gray-500">No products found for this category.</p>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 min-[380px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {filteredProducts.slice(0, 6).map((product) => (
               <ProductCard
                 key={product.id}
@@ -161,14 +187,20 @@ export default function App() {
           </div>
         )}
         <div className="mt-6">
-          <Button onClick={() => setShowAllProducts(true)} className="w-full sm:w-auto">
+          <Button
+            onClick={() => {
+              setShowAllProducts(true);
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="w-full sm:w-auto"
+          >
             View All Products
           </Button>
         </div>
       </Section>
 
-        <footer className="bg-beauty-pink-light/20 pt-16 pb-32 px-6 sm:px-8">
-          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+        <footer className="bg-beauty-pink-light/20 pt-14 sm:pt-16 pb-28 sm:pb-32 px-4 sm:px-6 sm:px-8">
+          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12">
             <div>
               <h2 className="font-serif text-2xl text-beauty-pink-dark mb-4">Beauty Store</h2>
               <p className="text-gray-600 text-sm leading-relaxed">
@@ -190,14 +222,20 @@ export default function App() {
                   </a>
                 </li>
                 <li>
-                  <a href="#all-products" className="hover:text-beauty-pink transition-colors">
+                  <button
+                    onClick={() => setShowAllProducts(true)}
+                    className="hover:text-beauty-pink transition-colors text-left"
+                  >
                     Our Collection
-                  </a>
+                  </button>
                 </li>
                 <li>
-                  <a href="#all-products" className="hover:text-beauty-pink transition-colors">
+                  <button
+                    onClick={() => setShowAllProducts(true)}
+                    className="hover:text-beauty-pink transition-colors text-left"
+                  >
                     All Products
-                  </a>
+                  </button>
                 </li>
               </ul>
             </div>

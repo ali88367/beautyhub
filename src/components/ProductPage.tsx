@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowLeft, MessageCircle, ShieldCheck, Star, Truck } from 'lucide-react';
 import { Product } from '../types';
 import { Button } from './Button';
+import { formatPriceLabel } from '../lib/pricing';
 
 interface ProductPageProps {
   product: Product;
@@ -11,13 +12,14 @@ interface ProductPageProps {
 
 export const ProductPage = ({ product, onBack, initialImage }: ProductPageProps) => {
   const handleWhatsAppOrder = () => {
-    const message = `Hi Beauty Store! I'd like to order ${product.name} (${product.price}).`;
+    const message = `Hi Beauty Store! I'd like to order ${product.name} (${formatPriceLabel(
+      product.discountPrice || product.price,
+    )}).`;
     window.open(`https://wa.me/1234567890?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   const images = React.useMemo(() => {
-    if (product.images.length > 0) return product.images;
-    return ['/images/prod1.png'];
+    return product.images;
   }, [product.images]);
 
   const initialIndex = React.useMemo(() => {
@@ -36,8 +38,8 @@ export const ProductPage = ({ product, onBack, initialImage }: ProductPageProps)
   const selectedImage = images[selectedIndex];
   const canSwipe = images.length > 1;
   const swipeThreshold = 40;
-  const displayPrice = product.discountPrice || product.price;
-  const originalPrice = product.originalPrice || product.price;
+  const displayPrice = formatPriceLabel(product.discountPrice || product.price);
+  const originalPrice = formatPriceLabel(product.originalPrice || product.price);
   const showDiscount = Boolean(product.discountPrice);
 
   const goNext = () => {
@@ -67,26 +69,32 @@ export const ProductPage = ({ product, onBack, initialImage }: ProductPageProps)
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(255,105,180,0.08),_transparent_32%),linear-gradient(180deg,#fff,#fff8fb_45%,#ffffff)]">
       <div
-        className="relative bg-gray-50"
+        className="relative bg-gradient-to-b from-white to-beauty-blush/40"
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
       >
         <button
           onClick={onBack}
-          className="absolute top-4 left-4 z-10 flex items-center gap-2 rounded-full bg-white/90 px-3 py-2 text-sm font-medium text-gray-800 shadow-md"
+          className="absolute top-4 left-4 z-10 flex items-center gap-2 rounded-full bg-white/90 px-3 py-2 text-sm font-medium text-gray-800 shadow-md backdrop-blur"
         >
           <ArrowLeft size={16} />
           Back
         </button>
 
-        <img
-          src={selectedImage}
-          alt={product.name}
-          className="w-full aspect-[4/5] sm:aspect-square object-cover"
-          referrerPolicy="no-referrer"
-        />
+        {selectedImage ? (
+          <img
+            src={selectedImage}
+            alt={product.name}
+            className="w-full aspect-[4/5] sm:aspect-square object-contain p-5 bg-gradient-to-br from-white via-beauty-blush/40 to-beauty-peach/20"
+            referrerPolicy="no-referrer"
+          />
+        ) : (
+          <div className="flex aspect-[4/5] sm:aspect-square w-full items-center justify-center bg-gradient-to-br from-white via-beauty-blush/40 to-beauty-peach/20 text-sm text-gray-400">
+            No image uploaded
+          </div>
+        )}
 
         {canSwipe && (
           <div className="flex gap-2 overflow-x-auto no-scrollbar px-4 py-3 bg-white border-t border-gray-100">
@@ -106,9 +114,9 @@ export const ProductPage = ({ product, onBack, initialImage }: ProductPageProps)
         )}
       </div>
 
-      <div className="px-5 pt-5 pb-24">
+      <div className="px-4 sm:px-5 pt-5 pb-24">
         <div className="flex items-center gap-2 mb-3">
-          <div className="flex text-beauty-pink">
+          <div className="flex text-beauty-pink drop-shadow-sm">
             {[...Array(5)].map((_, i) => (
               <Star key={i} size={14} fill="currentColor" />
             ))}
@@ -117,14 +125,14 @@ export const ProductPage = ({ product, onBack, initialImage }: ProductPageProps)
         </div>
 
         <p className="text-xs uppercase tracking-wider text-gray-500 mb-2">{product.category}</p>
-        <h1 className="font-serif text-2xl sm:text-3xl text-gray-900 mb-2">{product.name}</h1>
-        <div className="flex items-center gap-3 mb-4">
+        <h1 className="font-serif text-2xl sm:text-3xl text-gray-950 mb-2">{product.name}</h1>
+        <div className="flex items-center gap-3 mb-4 flex-wrap">
           <p className="text-beauty-pink-dark font-bold text-xl sm:text-2xl">{displayPrice}</p>
           {showDiscount && <span className="text-sm text-gray-400 line-through">{originalPrice}</span>}
         </div>
 
-        <div className="space-y-4 mb-6">
-          <p className="text-gray-600 leading-relaxed">{product.description}</p>
+        <div className="space-y-4 mb-6 rounded-[24px] border border-white/70 bg-white/80 p-4 shadow-[0_16px_40px_rgba(17,24,39,0.06)] backdrop-blur">
+          <p className="text-gray-600 leading-relaxed whitespace-pre-wrap">{product.description}</p>
           <ul className="space-y-3">
             <li className="flex items-center gap-3 text-sm text-gray-600">
               <ShieldCheck size={18} className="text-beauty-pink" />
@@ -137,7 +145,7 @@ export const ProductPage = ({ product, onBack, initialImage }: ProductPageProps)
           </ul>
         </div>
 
-        <div className="md:static sticky bottom-0 -mx-5 px-5 py-4 bg-white border-t border-gray-100 flex flex-col gap-3">
+        <div className="md:static sticky bottom-0 -mx-4 sm:-mx-5 px-4 sm:px-5 py-4 bg-white/95 border-t border-gray-100 flex flex-col gap-3 backdrop-blur">
           <Button variant="whatsapp" fullWidth onClick={handleWhatsAppOrder} className="py-4">
             <MessageCircle size={20} />
             Order via WhatsApp

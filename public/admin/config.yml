@@ -23,25 +23,45 @@ collections:
     editor:
       preview: false
     fields:
+      - label: "Main Image"
+        name: "cover_image"
+        widget: "image"
+        required: false
+        choose_url: false
+        hint: "This is the image shown on product cards and as the first image on the product page."
+      - label: "Extra Images"
+        name: "gallery_images"
+        widget: "list"
+        required: false
+        allow_add: true
+        collapsed: true
+        hint: "Optional. Add more photos for the product gallery."
+        field:
+          label: "Image"
+          name: "item"
+          widget: "image"
+          choose_url: false
       - label: "Product Name"
         name: "product_name"
         widget: "string"
       - label: "Price"
         name: "price"
         widget: "string"
-      - label: "Original Price (Old)"
-        name: "original_price"
-        widget: "string"
-        required: false
-        hint: "Optional. Show as old price when discount is set."
-      - label: "Discounted Price"
+        hint: "Example: 3600 or PKR 3,600"
+      - label: "Sale Price"
         name: "discount_price"
         widget: "string"
         required: false
         hint: "Optional. If set, this is the price shown to customers."
+      - label: "Compare At Price"
+        name: "original_price"
+        widget: "string"
+        required: false
+        hint: "Optional. Shows as the crossed-out old price."
       - label: "Description"
         name: "description"
         widget: "text"
+        hint: "Use line breaks for benefits, ingredients, and usage."
       - label: "Category"
         name: "category"
         widget: "select"
@@ -53,13 +73,3 @@ collections:
         widget: "boolean"
         default: false
         required: false
-      - label: "Images"
-        name: "images"
-        widget: "list"
-        min: 1
-        allow_add: true
-        field:
-          label: "Image"
-          name: "item"
-          widget: "image"
-          choose_url: false

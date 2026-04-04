@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { Product } from '../types';
 import { X, MessageCircle, Star, ShieldCheck, Truck } from 'lucide-react';
 import { Button } from './Button';
+import { formatPriceLabel } from '../lib/pricing';
 
 interface ProductDetailsProps {
   product: Product;
@@ -12,13 +13,14 @@ interface ProductDetailsProps {
 
 export const ProductDetails = ({ product, onClose, initialImage }: ProductDetailsProps) => {
   const handleWhatsAppOrder = () => {
-    const message = `Hi Beauty Store! I'd like to order ${product.name} (${product.price}).`;
+    const message = `Hi Beauty Store! I'd like to order ${product.name} (${formatPriceLabel(
+      product.discountPrice || product.price,
+    )}).`;
     window.open(`https://wa.me/1234567890?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   const images = React.useMemo(() => {
-    if (product.images.length > 0) return product.images;
-    return ['https://placehold.co/900x900?text=Beauty+Store'];
+    return product.images;
   }, [product.images]);
 
   const initialIndex = React.useMemo(() => {
@@ -76,7 +78,7 @@ export const ProductDetails = ({ product, onClose, initialImage }: ProductDetail
         animate={{ y: 0 }}
         exit={{ y: '100%' }}
         transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-        className="bg-white w-full max-w-4xl h-[100svh] md:h-auto md:max-h-[90vh] rounded-none md:rounded-[32px] overflow-hidden relative flex flex-col md:flex-row"
+        className="bg-white w-full max-w-4xl h-[100svh] md:h-auto md:max-h-[90vh] rounded-none md:rounded-[32px] overflow-hidden relative flex flex-col md:flex-row shadow-[0_30px_80px_rgba(17,24,39,0.25)]"
       >
         <button
           onClick={onClose}
@@ -86,16 +88,22 @@ export const ProductDetails = ({ product, onClose, initialImage }: ProductDetail
         </button>
 
         <div
-          className="w-full md:w-1/2 h-[52%] sm:h-1/2 md:h-auto bg-gray-50 flex flex-col"
+          className="w-full md:w-1/2 h-[52%] sm:h-1/2 md:h-auto bg-gradient-to-b from-white to-beauty-blush/30 flex flex-col"
           onTouchStart={handleTouchStart}
           onTouchEnd={handleTouchEnd}
         >
-          <img
-            src={selectedImage}
-            alt={product.name}
-            className="w-full h-full object-cover"
-            referrerPolicy="no-referrer"
-          />
+          {selectedImage ? (
+            <img
+              src={selectedImage}
+              alt={product.name}
+              className="w-full h-full object-contain p-4"
+              referrerPolicy="no-referrer"
+            />
+          ) : (
+            <div className="flex h-full w-full items-center justify-center text-sm text-gray-400">
+              No image uploaded
+            </div>
+          )}
           {canSwipe && (
             <div className="grid grid-cols-3 sm:grid-cols-4 gap-2 p-2 bg-white border-t border-gray-100">
               {images.slice(0, 4).map((image, index) => (
@@ -114,9 +122,9 @@ export const ProductDetails = ({ product, onClose, initialImage }: ProductDetail
           )}
         </div>
 
-        <div className="w-full md:w-1/2 px-5 pt-6 pb-24 md:p-12 overflow-y-auto">
+        <div className="w-full md:w-1/2 px-4 sm:px-5 pt-6 pb-24 md:p-12 overflow-y-auto bg-[linear-gradient(180deg,rgba(255,255,255,0.98),rgba(255,245,247,0.8))]">
           <div className="flex items-center gap-2 mb-4">
-            <div className="flex text-beauty-pink">
+            <div className="flex text-beauty-pink drop-shadow-sm">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} size={14} fill="currentColor" />
               ))}
@@ -125,11 +133,13 @@ export const ProductDetails = ({ product, onClose, initialImage }: ProductDetail
           </div>
 
           <p className="text-xs uppercase tracking-wider text-gray-500 mb-2">{product.category}</p>
-          <h2 className="font-serif text-2xl md:text-4xl text-gray-900 mb-2">{product.name}</h2>
-          <p className="text-beauty-pink-dark font-bold text-xl md:text-2xl mb-4 md:mb-6">{product.price}</p>
+          <h2 className="font-serif text-2xl md:text-4xl text-gray-950 mb-2">{product.name}</h2>
+          <p className="text-beauty-pink-dark font-bold text-xl md:text-2xl mb-4 md:mb-6">
+            {formatPriceLabel(product.price)}
+          </p>
 
-          <div className="space-y-4 mb-6 md:mb-8">
-            <p className="text-gray-600 leading-relaxed">{product.description}</p>
+          <div className="space-y-4 mb-6 md:mb-8 rounded-[24px] border border-white/80 bg-white/85 p-4 shadow-[0_16px_40px_rgba(17,24,39,0.06)] backdrop-blur">
+            <p className="text-gray-600 leading-relaxed whitespace-pre-wrap">{product.description}</p>
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-sm text-gray-600">
                 <ShieldCheck size={18} className="text-beauty-pink" />
@@ -142,7 +152,7 @@ export const ProductDetails = ({ product, onClose, initialImage }: ProductDetail
             </ul>
           </div>
 
-          <div className="md:static sticky bottom-0 -mx-5 px-5 py-4 bg-white border-t border-gray-100 flex flex-col gap-3">
+          <div className="md:static sticky bottom-0 -mx-4 sm:-mx-5 px-4 sm:px-5 py-4 bg-white/95 border-t border-gray-100 flex flex-col gap-3 backdrop-blur">
             <Button variant="whatsapp" fullWidth onClick={handleWhatsAppOrder} className="py-4">
               <MessageCircle size={20} />
               Order via WhatsApp

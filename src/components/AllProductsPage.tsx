@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowLeft, Search } from 'lucide-react';
 import { Product, ProductCategory } from '../types';
 import { Button } from './Button';
+import { formatPriceLabel } from '../lib/pricing';
 
 interface AllProductsPageProps {
   products: Product[];
@@ -31,10 +32,10 @@ export const AllProductsPage = ({ products, categories, onBack, onOpenProduct }:
   return (
     <div className="min-h-screen bg-white">
       <div className="sticky top-0 z-10 bg-white border-b border-gray-100">
-        <div className="flex items-center gap-3 px-5 py-4">
+        <div className="flex flex-col gap-3 px-4 sm:px-5 py-4">
           <button
             onClick={onBack}
-            className="flex items-center gap-2 rounded-full bg-gray-100 px-3 py-2 text-sm font-medium text-gray-800"
+            className="flex w-full sm:w-auto items-center justify-center gap-2 rounded-full bg-gray-100 px-3 py-2 text-sm font-medium text-gray-800"
           >
             <ArrowLeft size={16} />
             Back
@@ -50,7 +51,7 @@ export const AllProductsPage = ({ products, categories, onBack, onOpenProduct }:
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-2 px-5 pb-4">
+        <div className="flex flex-wrap gap-2 px-4 sm:px-5 pb-4">
           <button
             onClick={() => setActiveCategory('All')}
             className={`px-4 py-2 rounded-full text-xs transition ${
@@ -81,7 +82,7 @@ export const AllProductsPage = ({ products, categories, onBack, onOpenProduct }:
         </div>
       </div>
 
-      <div className="px-5 pt-5 pb-24">
+      <div className="px-4 sm:px-5 pt-5 pb-24">
         <div className="flex items-center justify-between mb-4">
           <p className="text-sm text-gray-500">{filtered.length} products</p>
           <Button
@@ -100,26 +101,36 @@ export const AllProductsPage = ({ products, categories, onBack, onOpenProduct }:
         {filtered.length === 0 ? (
           <p className="text-sm text-gray-500">No products match your filters.</p>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 min-[380px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {filtered.map((product) => (
               <button
                 key={product.id}
                 onClick={() => onOpenProduct(product, product.images[0])}
-                className="text-left bg-white border border-gray-100 rounded-[var(--radius-beauty)] overflow-hidden hover:border-beauty-pink/30 transition"
+                className="text-left bg-white/95 border border-gray-100/80 rounded-[20px] overflow-hidden hover:border-beauty-pink/30 hover:shadow-[0_18px_50px_rgba(17,24,39,0.12)] transition"
               >
-                <div className="aspect-square bg-gray-50">
-                  <img src="/images/prod1.png" alt={product.name} className="h-full w-full object-cover" />
+                <div className="aspect-square bg-gradient-to-br from-white via-beauty-blush/50 to-beauty-peach/30">
+                  {product.images[0] ? (
+                    <img
+                      src={product.images[0]}
+                      alt={product.name}
+                      className="h-full w-full object-contain p-3"
+                    />
+                  ) : (
+                    <div className="flex h-full w-full items-center justify-center text-xs text-gray-400">
+                      No image uploaded
+                    </div>
+                  )}
                 </div>
                 <div className="p-3">
                   <p className="text-[11px] uppercase tracking-wide text-gray-500">{product.category}</p>
                   <h3 className="text-sm font-medium text-gray-800 line-clamp-1">{product.name}</h3>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 flex-wrap">
                     <p className="text-beauty-pink-dark font-semibold text-sm">
-                      {product.discountPrice || product.price}
+                      {formatPriceLabel(product.discountPrice || product.price)}
                     </p>
                     {product.discountPrice && (
                       <span className="text-[11px] text-gray-400 line-through">
-                        {product.originalPrice || product.price}
+                        {formatPriceLabel(product.originalPrice || product.price)}
                       </span>
                     )}
                   </div>
