@@ -1,89 +1,96 @@
 ---
-cover_image: /images/1b66d27e5a7fa34f491dbe0c55c999a2.jpg
+cover_image: /images/downloadcopy_807e2249-caab-4e40-a6fc-1dca93f51035.png
 gallery_images:
-  - /images/images_-_2023-05-16t160705.244_558x.jpg
-  - /images/elf-stay-all-night-micro-fine-setting-mist-80ml-3-1.jpg
-product_name: e.l.f  Stay All Night  Micro-Fine Setting Mist (upto 16Hrs Wear) -80ml
-price: "00"
-discount_price: "00"
-original_price: "00"
+  - /images/e.l.f-stay-all-night-blue-light-micro-setting-mist-80ml-shopaholic-02.jpg
+  - /images/skinstashelfmists.png
+product_name: "e.l.f  Stay All Night Blue Light  Micro-Setting Mist (Long
+  Lasting Wear) -80ml "
+price: "0"
+discount_price: "0"
+original_price: "0"
 description: >-
   What it is:
 
-  A lightweight makeup setting spray with a super‑fine mist that helps set and lock your makeup in place for long‑lasting wear — marketed to keep your look fresh for up to 16 hours. 
+  A lightweight facial setting mist that sets your makeup for long‑lasting wear while also helping reduce the transmittance of blue light from screens and devices — all in a portable 80 ml bottle. 
 
 
-  Main Purpose:
+  Primary purpose:
 
-  Set makeup after application so it lasts longer without fading, smudging, or creasing
+  Locks makeup in place
 
-  Hydrate and soothe skin while helping makeup adhere smoothly
+  Helps makeup stay fresh throughout the day
 
-  Offers a micro‑fine spray that delivers even coverage without heavy droplets 
+  Refreshes and soothes skin
 
-
-  ✨ Key Features & Benefits
-
-  🧴 Micro‑Fine Mist Delivery
-
-  The “micro‑fine” mister creates a light, evenly distributed spray so product covers your face softly and more uniformly. 
-
-  🕐 Long‑Lasting Makeup
-
-  Helps your makeup stay in place for up to ~16 hours so you can go from morning to night without frequent touch‑ups. 
-
-  🌿 Skin‑Loving Ingredients
-
-  Infused with hydrating and soothing elements that help refresh skin as it sets your makeup:
-
-  Cucumber Fruit Extract – soothing & hydrating
-
-  Aloe Leaf Juice – calming and moisturizing
-
-  Green Tea Leaf Extract – antioxidant benefits
-
-  These help reduce dryness and calm skin while also setting makeup. 
-
-  💧 Lightweight & Comfortable
-
-  The formula feels light on skin rather than sticky or heavy. Great for all skin types. 
-
-  🐰 Vegan & Cruelty‑Free
-
-  Like all e.l.f. products, this spray is vegan and cruelty‑free.
-
-  🧪 Formula & Ingredients
-
-  Common ingredients in the Micro‑Fine Mist include:
-
-  Water (Aqua) – base of the mist
-
-  Alcohol Denat. – helps makeup set and dry quickly
-
-  Cucumber, Aloe & Green Tea Extracts – soothing, hydrating botanicals
-
-  Butylene Glycol – moisture retention
-
-  PEG‑40 Hydrogenated Castor Oil – emulsifier
-
-  Fragrance (Parfum) – for scent
-
-  Preservatives like Phenoxyethanol 
-
-  (Note: Actual ingredient lists can vary — always check the bottle you have.)
+  Provides a matte, shine‑free finish suitable for everyday wear 
 
 
-  🪄 How to Use
+  ✨ Key Benefits
 
-  Shake the bottle well before spraying. 
+  🎯 Sets Makeup for Long Wear
 
-  Hold 8–10 inches away from your face.
+  Sprays a fine mist that helps your foundation, concealer, and other products stay put with minimal fading or smudging throughout the day. 
 
-  Close your eyes and mist 2–4 times in a “Z” pattern to evenly set makeup. 
+  📱 Blue Light Protection
 
-  Let dry naturally — no need to rub. 
+  Infused with glucosylrutin — an ingredient claimed to reduce the transmittance of blue light that skin gets exposed to from screens (phones, laptops, tablets). 
 
-  You can also use it to refresh makeup throughout the day or even spray on brushes/sponges before applying other products to help them apply more smoothly. 
+  🍃 Soothing & Skin‑Friendly
+
+  Contains aloe and elderflower extract, which help calm and hydrate the skin while setting makeup. 
+
+  ☁️ Matte, Shine‑Free Finish
+
+  Delivers a matte effect, making it especially good for normal, dry, oily, or combination skin types that prefer a non‑shiny look.
+
+  🌱 Clean & Ethical
+
+  Vegan & cruelty‑free
+
+  Formulated without phthalates, parabens, nonylphenol ethoxylates, triclosan, triclocarban, or hydroquinone — consistent with e.l.f. clean standards. 
+
+
+  🧪 Ingredients Highlights
+
+  Key ingredients include:
+
+  Water (Aqua) – base of mist
+
+  Alcohol – helps deliver mist evenly and allows faster drying
+
+  PVP – film‑former that helps makeup stay in place
+
+  Glucosylrutin – supports reduced blue light exposure
+
+  Aloe Barbadensis Leaf Juice – soothing and moisturizing
+
+  Silica – helps reduce shine
+
+  Elderflower (Sambucus Nigra) Extract – contains vitamins and soothes skin
+
+  Glycerin – humectant to attract moisture 
+
+  Note: Always check the packaging you receive for the full, exact ingredient list. 
+
+
+  🧴 How to Use
+
+  Shake well before spraying. 
+
+  Hold the bottle 8–10 inches away from your face. 
+
+  Close your eyes and mist 2–4 sprays in a “Z” pattern to evenly distribute. 
+
+  Let it dry naturally — no rubbing needed. 
+
+  📌 Best For
+
+  ✔️ All skin types (normal, dry, oily, combination)
+
+  ✔️ People who want a matte finish
+
+  ✔️ Makeup routines needing longer wear without touch‑ups
+
+  ✔️ Those who spend a lot of time in front of screens and want extra protection from blue light exposure 
 category: Makeup
-best_seller: false
 ---
