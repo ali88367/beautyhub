@@ -85,7 +85,17 @@ description: >-
 
   Amino acids & minerals
 
-  👉 These ingredients nourish + protect at the same time 
+  👉 These ingredients nourish + protect at the same time
+   
+  👩‍⚕️ Best For
+
+  ✔ Dry skin
+
+  ✔ Normal skin
+
+  ✔ Sensitive skin
+
+  ❌ May feel slightly heavy for oily skin
 
 
   📌 How to Use
