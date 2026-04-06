@@ -1,113 +1,103 @@
 ---
-cover_image: /images/biodance-collagen-face-mask-price-in-pakistan.webp
+cover_image: /images/biodance-radiant-vita-niacinamide-real-deep-mask-x1_1.jpg
 gallery_images:
-  - /images/collagenmask_clinicallyproven-1-.jpg
-  - /images/collagenmask5.jpg
-  - /images/collagenmask4-1-.jpg
-product_name: Biodance Bio collagen Real Deep Mask
+  - /images/vita3.jpg
+  - /images/vita6-1-.jpg
+product_name: Biodance Radiant Vita Niacinamide Real Deep Mask
 price: "00"
 discount_price: "00"
 original_price: "00"
 description: >-
-  The Biodance Bio-Collagen Real Deep Mask is a Korean hydrogel sheet mask
-  designed for deep hydration, firming, and glass-skin glow. It can be worn for
-  3–4 hours or overnight, and it becomes transparent as it absorbs into the
-  skin. 
+  The Biodance Vita Niacinamide Gel Mask is a brightening hydrogel sheet mask
+  designed to improve dark spots, uneven tone, and dull skin while delivering
+  deep hydration.
+
+  It contains a high concentration of niacinamide (Vitamin B3) along with glutathione and fruit enzymes for glow and skin renewal. 
+
 
   ✨ Key Benefits
 
+  🌟 Brightening & Dark Spot Care
+
+  Niacinamide + Glutathione help reduce:
+
+  Hyperpigmentation
+
+  Melasma
+
+  Acne marks
+
+  Promotes a more even, radiant skin tone 
+
   💧 Deep Hydration
 
-  Contains oligo-hyaluronic acid for intense moisture
+  Gel mask soaked in rich essence (34g)
 
-  Penetrates deeper skin layers for long-lasting hydration 
+  Keeps skin moisturized and plump after one use 
 
-  🧬 Firming & Anti-Aging
+  🍍 Gentle Exfoliation
 
-  Ultra-low molecular collagen improves elasticity
+  Contains pineapple water enzyme
 
-  Helps reduce fine lines & wrinkles
+  Removes dead skin cells softly
 
-  Gives plump, youthful-looking skin 
+  Leaves skin smoother and fresher 
 
-  🔍 Pore Tightening
+  🔄 Tone, Texture & Glow (3-in-1)
 
-  Minimizes appearance of enlarged pores
+  Improves:
 
-  Smoothens skin texture instantly 
+  ✔ Skin texture
 
-  🛡️ Skin Barrier Repair
+  ✔ Dullness
 
-  Contains 3 types of probiotics
+  ✔ Uneven tone
 
-  Strengthens and protects the skin barrier 
+  Gives instant “glass skin” glow 
 
-  🌟 Brightening & Glow
+  🌿 Soothing & Calming
 
-  With Niacinamide + Galactomyces
+  Helps reduce redness and irritation
 
-  Improves dullness and uneven tone
-
-  🌿 Safe for Sensitive Skin
-
-  Hypoallergenic
-
-  Free from harsh & irritating ingredients
-
-  Suitable even for sensitive skin types 
+  Suitable for sensitive skin
 
 
   🧪 Key Ingredients
 
-  Low Molecular Collagen Peptide – Firming & elasticity
+  Niacinamide (20,000 ppm) – Brightening & oil control
 
-  Oligo Hyaluronic Acid – Deep hydration
+  Glutathione – Strong antioxidant, boosts glow
 
-  Niacinamide – Brightening & oil control
+  Pineapple Water (100,000 ppm) – Gentle exfoliation
 
-  Galactomyces Ferment Filtrate – Glow & texture improvement
+  Hyaluronic Acid Complex – Deep hydration
 
-  Probiotics (Lactobacillus, Bifida) – Barrier repair
-
-
-  📊 Claimed Results
-
-  100% noticed improved pores
-
-  95% felt deep hydration
-
-  90% saw brighter skin
-
-  100% reduced redness 
-
+  Botanical Extracts (rose, turmeric, neem, etc.) – Calming & repairing 
 
   🕒 How to Use
 
-  🌙 Overnight Method (Best Results)
+  Cleanse and tone your face
 
-  Apply after skincare routine
+  Apply the gel mask evenly
 
-  Leave overnight
+  Leave for 15–20 minutes (or longer if hydrogel type)
 
-  Remove in the morning
+  Remove and gently pat remaining essence
 
-  ☀️ Daytime Method
+  No need to rinse
 
-  Apply after toner/serum
+  💡 Tip: Use 2–3 times per week for best brightening results
 
-  Leave for 3–4 hours
+  👩‍⚕️ Suitable For
 
-  Remove when it turns transparent
+  ✔ Dull skin
 
-  💡 Pro Tip
+  ✔ Dark spots / pigmentation
 
-  Use leftover mask pieces on:
+  ✔ Uneven tone
 
-  Under eyes
+  ✔ Sensitive skin
 
-  Neck
-
-  Smile lines
+  ✔ Dehydrated skin
 category: Skincare
-best_seller: false
 ---
