@@ -1,31 +1,66 @@
 ---
-cover_image: /images/unnamed.jpg
+cover_image: /images/gemini_generated_image_lptenhlptenhlpte.png
 gallery_images:
-  - /images/gemini_generated_image_fk7hbdfk7hbdfk7h.png
-  - /images/gemini_generated_image_rq8tf3rq8tf3rq8t.png
-  - /images/gemini_generated_image_qnll2rqnll2rqnll.png
-  - /images/20d488b1e9feddc6e4740697356d489e.jpg_960x960q80.jpg_.webp
-product_name: Mocallure Fierce Rose Blush
+  - /images/sheglam-good-grip-hydrating-primer-blueberry-aha-6_480x480.jpg
+  - /images/sheglam-good-grip-hydrating-primer-blueberry-aha-1_1024x1024.jpg
+  - /images/172975765874e4b1e6158948f819d5cbdfbda16240_1340x.jpg
+product_name: SHEGLAM GOOD GRIP HYDRATING PRIMER BLUEBERRY+ AHA
 price: "0"
 discount_price: "0"
 original_price: "0"
 description: >-
-  Mocallure Fierc Rose Cream Blush
+  ✨ Key Features & Benefits
 
-  A cream‑based blush designed to give your cheeks a natural rosy glow with a luminous, long‑lasting finish. It’s one of the popular affordable blush options from the Mocallure brand, known for adding soft color to the face and enhancing complexion vibrancy. 
+  💧 Hydrating Gel Formula
+
+  Lightweight gel texture that absorbs quickly into the skin, leaving it feeling soft and moisturized. 
+
+  Suitable for normal, dry, combination, and even oily skin types — adding moisture without greasiness. 
+
+  📌 “Good Grip” Effect
+
+  Acts like a tacky yet lightweight base that gives makeup something to cling to, helping foundation, concealer, and other products stay put for longer wear. 
+
+  Users report improved makeup longevity — less shifting, fading, or slipping throughout the day. 
+
+  🌿 Clean & Skin‑Friendly Formulation
+
+  Vegan, cruelty‑free, and clean (free from silicones, parabens, mineral oils, talc, phthalates, and sulfates) which means it’s generally gentle on skin. 
+
+  Contains aloe leaf water for soothing, glycerin & hyaluronic acid‑like humectants for hydration, and plant extracts for conditioning. 
+
+  🧪 Visible Smoothness
+
+  Helps smooth texture and reduce the appearance of fine lines and dry patches so foundation applies more evenly. 
+
+  Some users find it gives a dewy, energized finish under makeup. 
 
 
-  ✨ Key Features
+  🧴 Key Ingredient Highlights
 
-  Cream Blush Formula: Soft, blendable texture that’s easy to apply and spread smoothly on the cheeks. 
+  Some notable formula components include:
 
-  Radiant, Rosy Color: Provides a subtle blush tone (often labeled Eternal Rose or similar rosy names) that mimics a natural flush. 
+  Aloe Barbadensis Leaf Water – soothing and hydrating. 
 
-  Infused with Rose Extract: Marketed as containing fierce rose extract for a bright, healthy look. 
+  Glycerin, Trehalose, Pentylene Glycol – humectants that help draw moisture into skin. 
 
-  Long‑Lasting Wear: Designed to stay on throughout the day with minimal fading. 
+  Sodium Hyaluronate – water‑attracting ingredient for plump, hydrated feel. 
 
-  Buildable Pigment: Allows you to layer color from a soft tint to a bolder effect depending on your look. 
+  Plant Extracts (e.g., soy, cactus, spirulina) – skin‑conditioning and antioxidant benefits. 
+
+  PVP & Pullulan – grip agents that help makeup adhere. 
+
+  Fragrance/Parfum – for light scent. 
+
+
+  🧴 How to Use
+
+  Apply a small amount to clean, moisturized skin after your skincare routine.
+
+  Blend evenly across the face, focusing on areas where makeup tends to fade first (T‑zone, cheeks).
+
+  Let the primer settle for ~30–60 seconds so it becomes slightly tacky, then apply foundation or base makeup.
+
+  Follow with concealer and setting products as desired. 
 category: Makeup
-best_seller: false
 ---
