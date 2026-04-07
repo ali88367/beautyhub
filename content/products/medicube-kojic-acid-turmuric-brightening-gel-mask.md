@@ -5,7 +5,7 @@ gallery_images:
   - /images/turmeric_sheet_mask_4_1024x.webp
   - /images/turmeric_sheet_mask_3.jpg
 product_name: Medicube Kojic Acid Turmuric Brightening Gel Mask
-price: "0"
+price: "1499"
 discount_price: "00"
 original_price: "00"
 description: >-
