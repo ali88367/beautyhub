@@ -3,9 +3,9 @@ cover_image: /images/unnamed-7-.jpg
 gallery_images:
   - /images/unnamed-8-.jpg
 product_name: Sui Dreams Replenish Moisturizing Shower Gel- Luxury perfume
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "2800"
+discount_price: "1999"
+original_price: "2800"
 description: >-
   Sui Dreams Replenish & Moisturizing Shower Gel is a hydrating liquid body
   cleanser formulated to both cleanse and deeply hydrate your skin during your
