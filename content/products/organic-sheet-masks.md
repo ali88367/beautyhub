@@ -1,5 +1,5 @@
 ---
-cover_image: ""
+cover_image: /images/816734_1.jpg
 gallery_images:
   - /images/img_4352.jpg
   - /images/img_4354.jpg
