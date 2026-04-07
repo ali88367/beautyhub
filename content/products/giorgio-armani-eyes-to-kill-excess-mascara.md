@@ -3,9 +3,9 @@ cover_image: /images/screenshot_20260221_102226_google.jpg
 gallery_images:
   - /images/77213103_o_a1.jpg
 product_name: Giorgio Armani Eyes To Kill Excess Mascara
-price: "0"
-discount_price: "0"
-original_price: "0"
+price: "4000"
+discount_price: "1899"
+original_price: "4000"
 description: |-
   ✨ Key Features
   3-in-1 effect – volumizes, lengthens & defines lashes
