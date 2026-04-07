@@ -1,6 +1,6 @@
 ---
 product_name: Dr. Jart+ Dermaclear Microfoam Cleanser (120ml)
-price: "2295"
+price: "3999"
 description: >-
   Dr. Jart+ Dermaclear pH Cleanser / Micro Foam is a gentle, low-pH foaming face
   wash designed to cleanse skin without stripping its moisture or natural
@@ -71,4 +71,6 @@ images:
   - /images/imageye___-_s-l1600_1_deabe388-b01f-4047-bd62-5b8ec84db78f_1000x-1-.jpeg
   - /images/4935a968809933611633_5-1-.jpg
   - /images/uk200052199_dr_jart_4-1-.jpg
+discount_price: "2295"
+original_price: "3999"
 ---
