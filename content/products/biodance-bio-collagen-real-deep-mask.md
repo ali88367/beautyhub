@@ -5,7 +5,7 @@ gallery_images:
   - /images/vita6-1-.jpg
 product_name: Biodance Radiant Vita Niacinamide Real Deep Mask
 price: "1499"
-discount_price: "00"
+discount_price: ""
 original_price: "00"
 description: >-
   The Biodance Vita Niacinamide Gel Mask is a brightening hydrogel sheet mask
