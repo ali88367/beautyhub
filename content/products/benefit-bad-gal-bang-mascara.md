@@ -6,7 +6,7 @@ gallery_images:
   - /images/maxresdefault.jpg
 product_name: Benefit BAD gal BANG Mascara
 price: "3999"
-discount_price: "1999"
+discount_price: "2099"
 original_price: "3999"
 description: >-
   ✨ Key Features & Benefits
