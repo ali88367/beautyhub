@@ -3,10 +3,11 @@ cover_image: /images/untitled_design_-_2024-03-28t180803.486.png
 gallery_images:
   - /images/benefitbadgalbang_volumisingmascara_8.5g_2.png
   - /images/593995780_4_4_720x928.webp
+  - /images/maxresdefault.jpg
 product_name: Benefit BAD gal BANG Mascara
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "3999"
+discount_price: "1999"
+original_price: "3999"
 description: >-
   ✨ Key Features & Benefits
 
