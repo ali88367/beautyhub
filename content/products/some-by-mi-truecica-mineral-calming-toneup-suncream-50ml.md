@@ -1,6 +1,6 @@
 ---
 product_name: Some By Mi TRUECICA Mineral Calming Toneup Suncream (50ml)
-price: "3599"
+price: "4500"
 description: >-
   Guard against damaging UV rays with SOME BY MI’s mineral sunscreen, which
   comes packed with the brand’s patented ingredient Truecica™, as well as aloe
@@ -37,4 +37,6 @@ images:
   - /images/4d1cd5dfae0c446dc2c49d7e1923239f_grande.jpg
   - /images/2f512be8bcc28d282f626318a5e1b1ea.jpg
   - /images/c75af1df2c485bc9e423e1851a25e3f0.jpg
+discount_price: "3599"
+original_price: "4500"
 ---
