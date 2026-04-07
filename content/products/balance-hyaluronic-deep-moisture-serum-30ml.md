@@ -3,9 +3,9 @@ cover_image: /images/9a516e30cdf5d3265ffd317d1eed8cc8.jpg
 gallery_images:
   - /images/balance_amazon_ut-05.jpg
 product_name: Balance Hyaluronic Deep Moisture Serum- 30ml
-price: "2300"
-discount_price: "1500"
-original_price: "2300"
+price: "2700"
+discount_price: "1799"
+original_price: "2700"
 description: |-
   🧴 Main Ingredients
   Hyaluronic Acid (Sodium Hyaluronate) – deeply hydrates and plumps skin
