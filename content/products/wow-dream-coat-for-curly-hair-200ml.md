@@ -3,9 +3,9 @@ cover_image: /images/963a8602130ae10695e6102aad360c83.jpg
 gallery_images:
   - /images/gemini_generated_image_hypqf8hypqf8hypq.png
 product_name: WOW Dream Coat For Curly Hair- 200ml
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "8000"
+discount_price: "5200"
+original_price: "8000"
 description: >-
   Color Wow Dream Coat for Curly Hair is a lightweight, performance-driven spray
   specifically designed for curly and wavy hair. It controls frizz, defines
