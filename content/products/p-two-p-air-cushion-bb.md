@@ -3,9 +3,9 @@ cover_image: /images/h5a8f0941c2844c7e8c74492b0ba8c9fc8.jpg
 gallery_images:
   - /images/h5d961a3c381946259b785b2bfd173268c.jpg
 product_name: P.TWO.P  Air Cushion BB
-price: "0"
-discount_price: "0"
-original_price: "0"
+price: "2600"
+discount_price: "2099"
+original_price: "2600"
 description: >+
   P2P Air Cushion BB Cream is a lightweight cushion foundation + BB cream that
   comes in a compact with a sponge puff. It provides natural coverage,
