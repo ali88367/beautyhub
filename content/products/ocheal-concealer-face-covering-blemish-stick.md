@@ -3,10 +3,10 @@ cover_image: /images/61lmjr5bbfl._ac_uf1000-1000_ql80_.jpg
 gallery_images:
   - /images/71-kpsyhgpl.jpg
   - /images/2289e06f-1478-4c1f-b0fd-fb05d27f0dac.jpg
-product_name: O'cheal Concealer Face Covering Blemish Stick
-price: "00"
-discount_price: "00"
-original_price: "00"
+product_name: ORIGINAL O'cheal Concealer Face Covering Blemish Stick
+price: "4500"
+discount_price: "2299"
+original_price: "4500"
 description: >-
   🖌️ What It Is
 
