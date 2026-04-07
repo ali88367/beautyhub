@@ -4,9 +4,9 @@ gallery_images:
   - /images/d5ab98947f6de2ba62e57396edc8d7af.jpg
   - /images/7748d2199ceac3606a344a6796551cc9.jpg
 product_name: COSRX Hyaluronic Acid Intensive cream
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "5450"
+discount_price: "3800"
+original_price: "5450"
 description: >-
   This is a rich but lightweight moisturizer specially designed for deep
   hydration and skin barrier repair. It contains a high amount of hyaluronic
