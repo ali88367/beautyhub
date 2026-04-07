@@ -1,6 +1,6 @@
 ---
 product_name: e.l.f Holy Hydration Thurst Burst Drops (30ml)
-price: "3399"
+price: "4100"
 description: >-
   e.l.f. Holy Hydration! Thirst Burst Drops is a lightweight hydrating serum
   that gives the skin instant moisture, brightness, and a dewy glow.
@@ -46,4 +46,6 @@ images:
   - /images/e-l-f-cosmetics-e-l-f-cosmetics-holy-hydration-thirst-burst-drops-30ml-609332575868-1197068208.jpg
   - /images/1225_edu_thirstburst_details.jpg
   - /images/img-5902_medium.jpg
+discount_price: "3399"
+original_price: "4100"
 ---
