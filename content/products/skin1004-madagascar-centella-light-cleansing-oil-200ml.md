@@ -25,7 +25,7 @@ description: >
 
   Apply an appropriate amount to the skin and gently massage the skin. Then rinse with water and clean with foam or gel.
 category: Skincare
-best_seller: true
+best_seller: false
 images:
   - /images/skin1004_cleansingoil_pkg.jpg
   - /images/skin1004_madagascar_centella_light_cleansing_oil_6_98px-66.jpg
