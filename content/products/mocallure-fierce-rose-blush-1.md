@@ -6,9 +6,9 @@ gallery_images:
   - /images/gemini_generated_image_rq8tf3rq8tf3rq8t.png
   - /images/gemini_generated_image_qnll2rqnll2rqnll.png
 product_name: Mocallure Fierce Rose Blush
-price: "0"
-discount_price: "0"
-original_price: "0"
+price: "750"
+discount_price: ""
+original_price: ""
 description: >-
   Mocallure Fierce Rose Blush is a highly pigmented blush (cream or powder
   variant depending on shade) that gives your cheeks a natural rosy glow with a
