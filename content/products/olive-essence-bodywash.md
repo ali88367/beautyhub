@@ -3,9 +3,9 @@ cover_image: /images/unnamed-3-.jpg
 gallery_images:
   - /images/unnamed-4-.jpg
 product_name: OLIVE Essence Bodywash
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "2999"
+discount_price: "2099"
+original_price: "2999"
 description: >-
   Olive Essence Body Wash is a hydrating, nourishing body cleanser enriched with
   olive oil / olive extract and natural moisturizing ingredients.
