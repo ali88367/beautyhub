@@ -4,9 +4,9 @@ gallery_images:
   - /images/fdce0a7960b3832fe195b0a7497472a2.jpg
   - /images/a874cac71a1cd80b0af4eba277346af2.jpg
 product_name: The Ordinary Multi-peptide Serum For Hair Density
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "4200"
+discount_price: "3500"
+original_price: "4200"
 description: >-
   This serum is a water-based, leave-in treatment made to support the scalp and
   promote thicker, fuller-looking hair. It uses multiple peptide technologies
