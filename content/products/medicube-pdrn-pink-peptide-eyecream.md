@@ -4,9 +4,9 @@ gallery_images:
   - /images/medicube_pdrn_pink_peptide_eye_serum_30ml_7.jpg
   - /images/71zv7buo6ol._ac_uf894-1000_ql80_.jpg
 product_name: Medicube PDRN Pink Peptide Eyecream
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "4200"
+discount_price: "3599"
+original_price: "4200"
 description: >-
   Medicube’s PDRN Pink Peptide Eye Cream is a targeted anti‑aging eye treatment
   formulated to improve the delicate skin around the eyes by addressing dark
