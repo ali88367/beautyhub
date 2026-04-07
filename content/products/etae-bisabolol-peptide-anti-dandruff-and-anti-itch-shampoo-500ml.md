@@ -3,9 +3,9 @@ cover_image: /images/unnamed-1-.jpg
 gallery_images:
   - /images/unnamed-2-.jpg
 product_name: ETAE Bisabolol Peptide Anti-dandruff and Anti-itch Shampoo- 500ml
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "2500"
+discount_price: "1995"
+original_price: "2500"
 description: >-
   🧪 What It Is
 
