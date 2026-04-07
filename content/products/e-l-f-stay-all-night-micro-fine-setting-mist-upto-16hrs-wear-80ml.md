@@ -5,9 +5,9 @@ gallery_images:
   - /images/skinstashelfmists.png
 product_name: "e.l.f  Stay All Night Blue Light  Micro-Setting Mist (Long
   Lasting Wear) -80ml "
-price: "0"
-discount_price: "0"
-original_price: "0"
+price: "5500"
+discount_price: "3999"
+original_price: "5500"
 description: >-
   What it is:
 
