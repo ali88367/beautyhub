@@ -4,7 +4,7 @@ gallery_images:
   - /images/vita3.jpg
   - /images/vita6-1-.jpg
 product_name: Biodance Radiant Vita Niacinamide Real Deep Mask
-price: "00"
+price: "1499"
 discount_price: "00"
 original_price: "00"
 description: >-
