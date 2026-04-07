@@ -4,9 +4,9 @@ gallery_images:
   - /images/tightning_booster_2.jpg
   - /images/715kr2hsjpl._sl1500.jpg
 product_name: Celimax The Vita A Retinal Shot Tightening Booster 15ml
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "4500"
+discount_price: "3800"
+original_price: "4500"
 description: >-
   The Celimax / LimeMax Retinal Tightening Booster is an advanced anti-aging
   Korean booster/serum formulated with 0.1% retinal (Vitamin A) to improve
