@@ -3,9 +3,9 @@ cover_image: /images/balance-active-niacinamide-serum.webp
 gallery_images:
   - /images/balance-active-formula-niacinamide-serum-500x500-1.jpg
 product_name: Balance Niacinamide Blemish Recovery Serum- 30ml
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "2700"
+discount_price: "1799"
+original_price: "2700"
 description: >-
   This serum is a water-based formula with 15% Niacinamide (Vitamin B3),
   specially made for acne-prone and oily skin. It helps reduce blemishes, smooth
