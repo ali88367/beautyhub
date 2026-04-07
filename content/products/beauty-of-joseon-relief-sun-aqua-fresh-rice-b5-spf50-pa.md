@@ -4,9 +4,9 @@ gallery_images:
   - /images/img_5358.jpg
   - /images/aqua_sunscreen_4.jpg
 product_name: "Beauty of Joseon Relief Sun Aqua Fresh : Rice + B5 SPF50+ PA++++"
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "4300"
+discount_price: "3696"
+original_price: "4300"
 description: |-
   This is the new lighter version of the original sunscreen.
   Made for people who want fresh, non-greasy sunscreen.
