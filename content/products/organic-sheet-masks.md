@@ -1,5 +1,18 @@
 ---
-cover_image: /images/img_4256.heic
+cover_image: ""
+gallery_images:
+  - /images/img_4352.jpg
+  - /images/img_4354.jpg
+  - /images/img_4355.jpg
+  - /images/img_4356.jpg
+  - /images/img_4358.jpg
+  - /images/img_4362.jpg
+  - /images/img_4363.jpg
+  - /images/img_4364.jpg
+  - /images/img_4366.jpg
+  - /images/img_4371.jpg
+  - /images/img_4350.jpg
+  - /images/img_4349.jpg
 product_name: Organic Sheet Masks
 price: "350"
 description: >-
