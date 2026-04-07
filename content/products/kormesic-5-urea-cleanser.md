@@ -3,9 +3,9 @@ cover_image: /images/saf4a42c44b2043bbae7ca17dc03c9fe13.jpg
 gallery_images:
   - /images/gemini_generated_image_s4rrnqs4rrnqs4rr.png
 product_name: KORMESIC 5% Urea Cleanser
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "2100"
+discount_price: "1499"
+original_price: "2100"
 description: |-
   🌟 What is Kormesic 5% Urea Cleanser?
   A hydrating facial cleanser formulated with 5% urea, designed to:
