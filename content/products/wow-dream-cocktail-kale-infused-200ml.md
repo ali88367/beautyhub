@@ -3,9 +3,9 @@ cover_image: /images/fbd5f6a5816f2570719c588515c2eed1.jpg
 gallery_images:
   - /images/color-wow-color-wow-dream-cocktail-kale-infused-leave-in-treatment-200ml-5060150185168-32803729735767.jpg
 product_name: WOW Dream Cocktail Kale-infused - 200ml
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "7000"
+discount_price: "4999"
+original_price: "7000"
 description: >-
   🌿 What It Is
 
