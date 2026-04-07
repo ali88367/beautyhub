@@ -1,6 +1,6 @@
 ---
 product_name: Skin1004- Madagascar Centella Light Cleansing Oil  (200ml)
-price: "4995"
+price: "5500"
 description: >
   Skin1004 Madagascar Centella Light Cleansing Oil effectively removes
   impurities from the skin, remnants of makeup and sun creams.
@@ -30,4 +30,6 @@ images:
   - /images/skin1004_cleansingoil_pkg.jpg
   - /images/skin1004_madagascar_centella_light_cleansing_oil_6_98px-66.jpg
   - /images/skin1004_-_madagascar_centella_light_cleansing_oil_200ml_1-550x550_jpg.webp
+discount_price: "4399"
+original_price: "5500"
 ---
