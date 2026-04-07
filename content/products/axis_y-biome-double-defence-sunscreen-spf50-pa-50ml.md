@@ -1,6 +1,6 @@
 ---
 product_name: Axis_y  Biome  Double Defence Sunscreen SPF50+  PA++++ (50ml)
-price: "4349"
+price: "4300"
 description: >-
   AXIS-Y Biome Double Defense Sunscreen is a Korean sunscreen that protects the
   skin from sun damage while also helping strengthen the skin barrier. It has a
@@ -63,6 +63,6 @@ images:
   - /images/hollyshop-_-2025_01_11t171501.250-_1_.jpg
   - /images/axis-y_biome_double_defence_sunscreen_50ml_-_makeup_stash_pakistan-2922377.jpg
   - /images/367706e9-f26e-4591-9db1-5eb7721c517d.__cr0-0-970-600_pt0_sx970_v1___.jpg
-discount_price: "3550"
-original_price: "4349"
+discount_price: "3549"
+original_price: "4300"
 ---
