@@ -3,9 +3,9 @@ cover_image: /images/d59eeaf2a5913648fa5ea871204f3e81-1-.jpg
 gallery_images:
   - /images/415cc5fb41c5bddd353b76f9f737814c.jpg
 product_name: St.ives Body Wash Pink Lemon And Mandarin Orange- 650ml
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "4000"
+discount_price: "2999"
+original_price: "4000"
 description: >-
   🍋 Key Features
 
