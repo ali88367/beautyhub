@@ -4,9 +4,9 @@ gallery_images:
   - /images/elf-stay-all-night-micro-fine-setting-mist-80ml-3-1.jpg
   - /images/images_-_2023-05-16t160705.244_558x.jpg
 product_name: e.l.f  Stay All Night  Micro-Fine Setting Mist (upto 16Hrs Wear) -80ml
-price: "0"
-discount_price: "0"
-original_price: "0"
+price: "5500"
+discount_price: "3999"
+original_price: "5500"
 description: |-
   ✨ Key Benefits
   Long-lasting hold – keeps makeup intact all day (up to 16 hours)
