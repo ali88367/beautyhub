@@ -4,9 +4,9 @@ gallery_images:
   - /images/fayankou-centella-lotion-3-1-.jpg
   - /images/fayankou-centella-lotion.jpg
 product_name: FAYANKOU Centella Asiatica Soothing Repairing  Essence Lotion
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "2000"
+discount_price: "1599"
+original_price: "2000"
 description: >-
   Fayankou Centella Asiatica Repairing Lotion is a skincare product infused with
   Centella Asiatica extract (often called cica) that’s designed to soothe, calm,
