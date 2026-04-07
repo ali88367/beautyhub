@@ -5,9 +5,9 @@ gallery_images:
   - /images/sheglam-good-grip-hydrating-primer-blueberry-aha-1_1024x1024.jpg
   - /images/172975765874e4b1e6158948f819d5cbdfbda16240_1340x.jpg
 product_name: SHEGLAM GOOD GRIP HYDRATING PRIMER BLUEBERRY+ AHA
-price: "0"
-discount_price: "0"
-original_price: "0"
+price: "4999"
+discount_price: "3750"
+original_price: "4999"
 description: >-
   ✨ Key Features & Benefits
 
