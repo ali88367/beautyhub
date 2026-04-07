@@ -1,6 +1,6 @@
 ---
 product_name: "Black Rice Face Cream KORMESIC "
-price: "999"
+price: "1600"
 description: >-
   Kormesic Black Rice Face Cream is a moisturizing and brightening face cream
   made with black rice extract, which is rich in antioxidants and nutrients that
@@ -56,4 +56,6 @@ best_seller: false
 images:
   - /images/8214f4af-4720-4d5b-9888-5b8e7f55f711.jpg
   - /images/3.jpg
+discount_price: "1100"
+original_price: "1600"
 ---
