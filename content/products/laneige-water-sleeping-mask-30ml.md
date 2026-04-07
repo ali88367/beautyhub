@@ -4,9 +4,9 @@ gallery_images:
   - /images/4_4eab9f8f-c2a2-45c0-bdd7-dbebf52bcc38.png
   - /images/images-_12.jpg
 product_name: Laneige Water Sleeping Mask- 30ml
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "7000"
+discount_price: "5350"
+original_price: "7000"
 description: >-
   Laneige Water Sleeping Mask is a famous Korean overnight mask designed to
   deeply hydrate and repair skin during sleep. It works overnight so you wake up
