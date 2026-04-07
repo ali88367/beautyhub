@@ -4,7 +4,7 @@ gallery_images:
   - /images/glow-recipe-watermelon-glow-ultra-fine-mist-lifestyle.jpg
   - /images/71hk4tacsxl._sl1500.jpg
   - /images/5_14_24_pdp_claim_refresh_wm_mist-02_1_1080x_aa398500-69b7-4b58-ad92-1ba4f6856c06.webp
-product_name: Gloe Recipe Watermelon Glow Ultra Fine Mist- 75ml
+product_name: Glow Recipe Watermelon Glow Ultra Fine Mist- 75ml
 price: "11900"
 discount_price: "5400"
 original_price: "11900"
