@@ -1,9 +1,9 @@
 ---
 cover_image: /images/aee1a22aa5cdd114c1513c9ac30e581b.jpg
 product_name: HUDA BEAUTY Easy Blur Foundation
-price: "0"
-discount_price: "0"
-original_price: "0"
+price: "11000"
+discount_price: "4999"
+original_price: "11000"
 description: >-
   A lightweight, serum-like foundation that gives a real-life filter (blurred
   skin) effect with a smooth, airbrushed finish. It’s designed for easy everyday
