@@ -5,9 +5,9 @@ gallery_images:
   - /images/4148f577d25ce6d07c11086199168db2.jpg
   - /images/d4029658122799399ebb36e3aee28fe6.jpg
 product_name: e.l.f Power Grip Primer +4% Niacinamide
-price: "0"
-discount_price: "0"
-original_price: "0"
+price: "4500"
+discount_price: "3199"
+original_price: "4500"
 description: >
   What it is:
 
