@@ -4,9 +4,9 @@ gallery_images:
   - /images/new_project_18_8c502f26-6f56-481c-a7db-93ff16d37dce.jpg
   - /images/tocobo_cica_calming_gel_cream.png
 product_name: TOCOBO Cica Calming Gel Cream
-price: "00"
-discount_price: "00"
-original_price: 00xfbbvvvff2
+price: "4650"
+discount_price: "3750"
+original_price: "4650"
 description: >-
   This is a lightweight gel moisturizer specially made for sensitive, irritated,
   and acne-prone skin. It contains cica (centella asiatica), hyaluronic acid,
