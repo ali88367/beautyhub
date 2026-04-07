@@ -3,9 +3,9 @@ cover_image: /images/b06bdc67-e40c-4373-af6d-4e48361cfd59-1-.jpg
 gallery_images:
   - /images/d38ac4cc-f415-4531-acf0-cfcb2fdae0b8.jpg
 product_name: "Ydewly Anti Wrinkle Yeast Moisturizing Luxury Softening "
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "2200"
+discount_price: "1750"
+original_price: "2200"
 description: >-
   YDEWLY Anti‑Wrinkle Yeast Moisturizing Luxury Softening Essence Milk is a
   lightweight skincare essence‑milk designed to deeply hydrate, soften, and
