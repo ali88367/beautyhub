@@ -5,9 +5,9 @@ gallery_images:
   - /images/71nu-islwgl._ac_uf350-350_ql80_.jpg
   - /images/a153c558-6e4a-4319-8701-0f2bd09c4500-1000x1000-mizwvtlmgmlrcqkvx0necqbjk486uzsomjiki3wg.jpg
 product_name: "BEAUTY OF JOSEON RELIEF SUN : RICE + PROBIOTICS (SPF50+ PA++++)"
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "4300"
+discount_price: "3696"
+original_price: "4300"
 description: >-
   Beauty of Joseon Relief Sun Rice + Probiotics SPF50+ PA++++ is a viral Korean
   sunscreen that works like skincare + sunblock in one.
