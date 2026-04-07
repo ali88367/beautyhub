@@ -5,9 +5,9 @@ gallery_images:
   - /images/21efb54a2093697f82d736dd9df5fc7b.jpg
   - /images/pdrnoneday_4.jpg
 product_name: Medicube PDRN Pink Peptide One Day Serum
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "5600"
+discount_price: "4200"
+original_price: "5600"
 description: >-
   This serum is a highly concentrated ampoule treatment designed for skin
   repair, brightening, and anti-aging. It comes in single-use mini vials, which
