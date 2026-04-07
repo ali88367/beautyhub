@@ -5,9 +5,9 @@ gallery_images:
   - /images/secretkey-snowwhitespotgelvisageetcorps-65g7.jpg
   - /images/20250306_113250408_51660.jpg
 product_name: Secret Key Snowwhite Spotgel- 65g
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "4700"
+discount_price: "3799"
+original_price: "4700"
 description: >-
   The Secret Key Snow White Spot Gel is a lightweight brightening gel designed
   to reduce dark spots, pigmentation, and uneven skin tone.
