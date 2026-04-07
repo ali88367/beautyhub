@@ -3,9 +3,9 @@ cover_image: /images/unnamed-5-.jpg
 gallery_images:
   - /images/unnamed-6-.jpg
 product_name: Kadiluolan Floral Fragrance Shower Gel
-price: "00"
-discount_price: "0"
-original_price: "0"
+price: "2999"
+discount_price: "2199"
+original_price: "2999"
 description: >-
   Kandiluolan Floral Fragrance Showergel is a perfumed body cleanser designed to
   gently cleanse your skin while leaving a lasting floral fragrance.
