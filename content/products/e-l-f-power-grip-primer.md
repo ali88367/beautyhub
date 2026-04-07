@@ -5,9 +5,9 @@ gallery_images:
   - /images/d1af271b644ee047682c91840bd7b3d1.jpg
   - /images/img-5684.jpg
 product_name: e.l.f Power Grip Primer
-price: "00"
-discount_price: "00"
-original_price: "00"
+price: "4500"
+discount_price: "3199"
+original_price: "4500"
 description: >+
   What is it: A gel-based, hydrating face primer that smooths skin while
   gripping your makeup.
