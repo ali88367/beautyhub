@@ -80,5 +80,5 @@ description: >-
 
   👉 For intensive care, you can wear it overnight as the last step in your skincare routine. 
 category: Skincare
-best_seller: false
+best_seller: true
 ---
