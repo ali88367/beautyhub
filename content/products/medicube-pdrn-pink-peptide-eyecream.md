@@ -86,5 +86,5 @@ description: >-
 
   Works well when paired with other products in the Medicube PDRN line for extra hydration and radiance. 
 category: Skincare
-best_seller: false
+best_seller: true
 ---
