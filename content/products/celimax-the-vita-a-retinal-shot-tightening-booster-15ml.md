@@ -94,5 +94,5 @@ description: >-
 
   If you are new to using retinol or retinal, apply it every other night for the first two weeks.Apply a small amount to the targeted areas. If irritation occurs, reduce the amount and frequency, and use a moisturizer containing soothing ingredients to alleviate irritation.The morning after using retinol, ensure you apply sunscreen as the final step in your skincare routine to protect your skin.Once your skin has adjusted to retinol or retinal, you can use it every evening.Apply an appropriate amount evenly over your entire face.
 category: Skincare
-best_seller: false
+best_seller: true
 ---
