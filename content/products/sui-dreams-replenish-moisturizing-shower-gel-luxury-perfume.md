@@ -1,5 +1,5 @@
 ---
-cover_image: /images/unnamed-7-.jpg
+cover_image: /images/6000011_94587bf6-c459-467d-a879-de38c0f07aa7.webp
 gallery_images:
   - /images/unnamed-8-.jpg
 product_name: Sui Dreams Replenish Moisturizing Shower Gel- Luxury perfume
