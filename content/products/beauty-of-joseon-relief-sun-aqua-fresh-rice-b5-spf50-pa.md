@@ -38,5 +38,5 @@ description: |-
   ✔ Acne-prone skin
   ✔ Summer use
 category: Skincare
-best_seller: false
+best_seller: true
 ---
