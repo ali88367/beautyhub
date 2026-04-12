@@ -1,5 +1,5 @@
 ---
-cover_image: /images/unnamed-3-.jpg
+cover_image: /images/4302467.webp
 gallery_images:
   - /images/unnamed-4-.jpg
 product_name: OLIVE Essence Bodywash
