@@ -66,7 +66,7 @@ description: >-
 
   Some sellers mention it can also suit blemish-prone skin because it cleans effectively without harsh surfactants.
 category: Skincare
-best_seller: false
+best_seller: true
 images:
   - /images/imageye___-_s-l1600_1_deabe388-b01f-4047-bd62-5b8ec84db78f_1000x-1-.jpeg
   - /images/4935a968809933611633_5-1-.jpg
